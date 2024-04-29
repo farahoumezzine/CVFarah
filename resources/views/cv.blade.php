@@ -187,9 +187,7 @@
                         <li>
                             <a href="#resume">my resume</a>
                         </li>
-                        <li>
-                            <a href="#services">services</a>
-                        </li>
+
                         <li>
                             <a href="#portfolio">portfolio</a>
                         </li>
@@ -381,72 +379,52 @@
                                 <div class="skill">
                                     <h5 class="name">Creativity
                                     </h5>
-                                    <div>
-                                        <span class="true"></span>
-                                        <span class="true"></span>
-                                        <span class="true"></span>
-                                        <span class="true"></span>
-                                        <span class="false"></span>
-                                    </div>
-                                    <span>expert</span>
+
                                 </div>
+                                <hr style="width:50%;text-align:left;margin-left:0">
 
                                 <!-- Skill 2 -->
                                 <div class="skill">
                                     <h5 class="name">Leadership</h5>
-                                    <div>
-                                        <span class="true"></span>
-                                        <span class="true"></span>
-                                        <span class="true"></span>
-                                        <span class="false"></span>
-                                        <span class="false"></span>
-                                    </div>
-                                    <span>advanced</span>
+
                                 </div>
+                                <hr style="width:50%;text-align:left;margin-left:0">
 
                                 <!-- Skill 3 -->
                                 <div class="skill">
                                     <h5 class="name">Problem-Solving
                                     </h5>
-                                    <div>
-                                        <span class="true"></span>
-                                        <span class="true"></span>
-                                        <span class="false"></span>
-                                        <span class="false"></span>
-                                        <span class="false"></span>
-                                    </div>
-                                    <span>Beginner</span>
+
                                 </div>
+
+                                <hr style="width:50%;text-align:left;margin-left:0">
+
                                 <!-- Skill 4 -->
                                 <div class="skill">
                                     <h5 class="name">Self-Motivation
 
                                     </h5>
-                                    <div>
-                                        <span class="true"></span>
-                                        <span class="true"></span>
-                                        <span class="false"></span>
-                                        <span class="false"></span>
-                                        <span class="false"></span>
-                                    </div>
-                                    <span>Beginner</span>
+
+
                                 </div>
+                                <hr style="width:50%;text-align:left;margin-left:0">
 
                                 <!-- Skill 5 -->
                                 <div class="skill">
                                     <h5 class="name">Flexibility
 
                                     </h5>
-                                    <div>
-                                        <span class="true"></span>
-                                        <span class="true"></span>
-                                        <span class="false"></span>
-                                        <span class="false"></span>
-                                        <span class="false"></span>
-                                    </div>
-                                    <span>Beginner</span>
-                                </div>
 
+                                </div>
+                                <hr style="width:50%;text-align:left;margin-left:0">
+
+                                <!-- Skill 5 -->
+                                <div class="skill">
+                                    <h5 class="name">Communication
+
+                                    </h5>
+
+                                </div>
                             </div>
                             <div class="col-sm-6 item mob-margin-top-45">
                                 <h3 class="subtitle">Languages
@@ -513,7 +491,227 @@
                             </div>
                         </div><!--.skills-->
 
-                        <!--Testimonials-->
+                        <!-- certifications -->
+                        <div class="skills row margin-top-45">
+                            <div class="col-sm-6 item">
+                                <h3 class="subtitle">My Certifications
+                                    <svg width="66px" height="8px" viewBox="0 0 66 8" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                        <g class="Web" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(-147.000000, -464.000000)" opacity="0.2" stroke-linecap="round" stroke-linejoin="round">
+                                            <g class="Header" stroke="#FFFFFF" stroke-width="3">
+                                                <path d="M149,466 C152.87377,466 152.87377,470 156.747541,470 C160.621311,470 160.621311,466 164.493293,466 C168.367064,466 168.367064,470 172.240834,470 C176.112816,470 176.112816,466 179.984798,466 C183.858569,466 183.858569,470 187.730551,470 C191.607898,470 191.607898,466 195.483457,466 C199.362593,466 199.362593,470 203.241728,470 C207.120864,470 207.120864,466 211,466"></path>
+                                            </g>
+                                        </g>
+                                    </svg>
+                                </h3>
+
+                                <!-- certif 1 -->
+                                <div class="skill">
+                                    <h5 class="name"><a href="https://www.coursera.org/account/accomplishments/verify/BNJLAFGPPGAV?utm_source=ln&utm_medium=certificate&utm_content=cert_image&utm_campaign=pdf_header_button&utm_product=course">Supervised Machine Learning: Regression and Classification</a></h5>
+                                    <br>
+                                    <span>Coursera</span>
+                                </div>
+
+
+                                <!-- certif 2 -->
+                                <div class="skill">
+                                    <h5 class="name"><a href="https://www.scrumstudy.com/certification/verify?type=SFC&number=1012292">Scrum Fundamentals Certified (SFC™)</a></h5>
+                                  <br>
+                                    <span> SCRUMstudy - Accreditation Body for Scrum and Agile</span>
+                                </div>
+
+                                <!-- certif 3 -->
+                                <div class="skill">
+                                    <h5 class="name"><a href="https://www.coursera.org/account/accomplishments/verify/37Z5LBGBCLK2?utm_source=link&utm_medium=certificate&utm_content=cert_image&utm_campaign=sharing_cta&utm_product=course"> React Native</a></h5>
+                                 <br>
+                                    <span> Coursera</span>
+                                </div>
+
+                                <!-- certif 4 -->
+                                <div class="skill">
+                                    <h5 class="name"><a href="https://www.sololearn.com/Certificate/CT-US8REOUA/png">JavaScript </a></h5>
+                                    <br>
+
+                                    <span> Sololearn</span>
+                                </div>
+
+                                <!-- certif 5 -->
+                                <div class="skill">
+                                    <h5 class="name"><a href="https://coursera.org/share/de16937654590c8bcfff22b343331645">Introduction to Mobile Development </a></h5>
+                                    <br>
+
+                                    <span>Coursera</span>
+                                </div>
+
+                                <!-- certif 6 -->
+                                <div class="skill">
+                                    <h5 class="name"><a href="https://coursera.org/share/5d5725ce8380571745cfe66fa14f0899">Agile Project Management
+                                        </a></h5>
+                                    <br>
+
+                                    <span>Coursera</span>
+                                </div>
+                                <!-- certif 7 -->
+                                <div class="skill">
+                                    <h5 class="name"><a href="">NDG Linux Unhatched course </a></h5>
+                                    <br>
+
+                                    <span>Cisco Networking Academy </span>
+                                </div>
+
+                                <!-- certif 8 -->
+                                <div class="skill">
+                                    <h5 class="name"><a href="">Linux Essentials course </a></h5>
+                                    <br>
+
+                                    <span>Cisco Networking Academy </span>
+                                </div>
+
+
+                            </div>
+
+
+
+                                <!--CHALLENGE -->
+                            <div class="col-sm-6 item">
+                                <h3 class="subtitle">My CHALLENGEs
+                                    <svg width="66px" height="8px" viewBox="0 0 66 8" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                        <g class="Web" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(-147.000000, -464.000000)" opacity="0.2" stroke-linecap="round" stroke-linejoin="round">
+                                            <g class="Header" stroke="#FFFFFF" stroke-width="3">
+                                                <path d="M149,466 C152.87377,466 152.87377,470 156.747541,470 C160.621311,470 160.621311,466 164.493293,466 C168.367064,466 168.367064,470 172.240834,470 C176.112816,470 176.112816,466 179.984798,466 C183.858569,466 183.858569,470 187.730551,470 C191.607898,470 191.607898,466 195.483457,466 C199.362593,466 199.362593,470 203.241728,470 C207.120864,470 207.120864,466 211,466"></path>
+                                            </g>
+                                        </g>
+                                    </svg>
+                                </h3>
+
+                                <!-- challeng 1 -->
+                                <div class="skill">
+                                    <h5 class="name"><a href="https://learn.microsoft.com/en-us/collections/8pm3f6kdw4md?WT.mc_id=cloudskillschallenge_4ec5e79f-725d-427e-9c48-6805af903981&sharingId=17B1EBBDE5DE8357&sharingId=17B1EBBDE5DE8357">Student Technical Training
+                                        </a></h5>
+                                    <br>
+                                    <span>Microsoft</span>
+                                </div>
+
+
+                                <!-- challeng 2 -->
+                                <div class="skill">
+                                    <h5 class="name"><a href="https://www.datacamp.com/completed/statement-of-accomplishment/course/2ef188ec3b3113333d359a5a7d4c6756c05d781b">Intermediate SQL
+                                        </a></h5>
+                                    <br>
+                                    <span>datacamp</span>
+                                </div>
+
+                                <!-- challeng 3 -->
+                                <div class="skill">
+                                    <h5 class="name"><a href="https://learn.microsoft.com/api/achievements/share/en-us/FarahOumezzine-4513/WYTDAJKN?sharingId=17B1EBBDE5DE8357"> Explore and analyze data with Python</a></h5>
+                                    <br>
+                                    <span>Microsoft</span>
+                                </div>
+
+                                <!-- challeng 4 -->
+                                <div class="skill">
+                                    <h5 class="name"><a href="https://learn.microsoft.com/api/achievements/share/en-us/FarahOumezzine-4513/UNRERZH3?sharingId=17B1EBBDE5DE8357">Train and evaluate regression models </a></h5>
+                                    <br>
+
+                                    <span> Microsoft</span>
+                                </div>
+
+                                <!-- challeng 5 -->
+                                <div class="skill">
+                                    <h5 class="name"><a href="https://learn.microsoft.com/api/achievements/share/en-us/FarahOumezzine-4513/AM4QLB57?sharingId=17B1EBBDE5DE8357">Train and evaluate classification models </a></h5>
+                                    <br>
+
+                                    <span>Microsoft</span>
+                                </div>
+
+
+
+                            </div>
+                            <!--CHALLENGE -->
+
+
+
+                        </div><!--.certifications-->
+
+
+                        <!-- Activity -->
+                        <div class="skills row margin-top-45">
+                            <div class="col-sm-6 item">
+                                <h3 class="subtitle">Activity
+                                    <svg width="66px" height="8px" viewBox="0 0 66 8" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                        <g class="Web" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(-147.000000, -464.000000)" opacity="0.2" stroke-linecap="round" stroke-linejoin="round">
+                                            <g class="Header" stroke="#FFFFFF" stroke-width="3">
+                                                <path d="M149,466 C152.87377,466 152.87377,470 156.747541,470 C160.621311,470 160.621311,466 164.493293,466 C168.367064,466 168.367064,470 172.240834,470 C176.112816,470 176.112816,466 179.984798,466 C183.858569,466 183.858569,470 187.730551,470 C191.607898,470 191.607898,466 195.483457,466 C199.362593,466 199.362593,470 203.241728,470 C207.120864,470 207.120864,466 211,466"></path>
+                                            </g>
+                                        </g>
+                                    </svg>
+                                </h3>
+
+                                <!-- Activity 1 -->
+                                <div class="skill">
+                                    <h5 class="name">Participation in the workshop Steer your career</h5>
+                                    <br>
+                                    <span>Injaz Tunisia</span>
+                                </div>
+
+
+                                <!-- Activity 2 -->
+                                <div class="skill">
+                                    <h5 class="name">Participation in GREEN Hackathon</h5>
+                                    <br>
+                                    <span> Esprit Monastir</span>
+                                </div>
+
+                                <!-- Activity 3 -->
+                                <div class="skill">
+                                    <h5 class="name">Awarded Third Place in the Inter-Class Competition </h5>
+                                    <br>
+                                    <span> Esprit Monastir</span>
+                                </div>
+
+                                <!-- Activity 4 -->
+                                <div class="skill">
+                                    <h5 class="name">
+                                       2024: Treasurer</h5>
+                                    <br>
+
+                                    <span> JCI Bekalta</span>
+                                </div>
+
+                                <!-- Activity 5 -->
+                                <div class="skill">
+                                    <h5 class="name">2023: Vice President in charge of Training and Development
+                                    </h5>
+                                    <br>
+
+                                    <span>JCI Bekalta</span>
+                                </div>
+
+                                <!-- Activity 6 -->
+                                <div class="skill">
+                                    <h5 class="name">
+                                        2021: Media Advisor
+                                        </h5>
+                                    <br>
+
+                                    <span>JCI Bekalta</span>
+                                </div>
+
+
+
+                            </div>
+
+
+
+
+
+
+                        </div><!--.Activity-->
+
+
+
+
+
+                        <!--Testimonials
                         <div class="testimonials margin-top-45">
                             <h3 class="subtitle">Testimonials
                                 <svg width="66px" height="8px" viewBox="0 0 66 8" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -530,7 +728,6 @@
                             </div>
                             <div class="owl">
 
-                                <!-- Testimonial 1 -->
                                 <div class="testimonial">
                                     <div class="testi-content">
                                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus molestie, justo nec convallis sollicitudin, sapien lorem dictum lacus, non consequat odio ipsum nec est.</p>
@@ -540,7 +737,6 @@
                                     <h5>Client</h5>
                                 </div>
 
-                                <!-- Testimonial 2 -->
                                 <div class="testimonial">
                                     <div class="testi-content">
                                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus molestie, justo nec convallis sollicitudin, sapien lorem dictum lacus, non consequat odio ipsum nec est.</p>
@@ -550,7 +746,6 @@
                                     <h5>Client</h5>
                                 </div>
 
-                                <!-- Testimonial 3 -->
                                 <div class="testimonial">
                                     <div class="testi-content">
                                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus molestie, justo nec convallis sollicitudin, sapien lorem dictum lacus, non consequat odio ipsum nec est.</p>
@@ -560,7 +755,6 @@
                                     <h5>Client</h5>
                                 </div>
 
-                                <!-- Testimonial 4 -->
                                 <div class="testimonial">
                                     <div class="testi-content">
                                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus molestie, justo nec convallis sollicitudin, sapien lorem dictum lacus, non consequat odio ipsum nec est.</p>
@@ -570,10 +764,10 @@
                                     <h5>Client</h5>
                                 </div>
 
-                            </div><!--.owl-->
-                        </div><!--.testimonials-->
-
-                        <!--Clients-->
+                            </div>
+                        </div>
+                            -->
+                        <!--Clients
                         <div class="clients margin-top-45">
                             <h3 class="subtitle">Our Clients
                                 <svg width="66px" height="8px" viewBox="0 0 66 8" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -586,52 +780,46 @@
                             </h3>
                             <div class="row">
 
-                                <!-- Client 1 -->
                                 <div class="col-sm-2 col-xs-4">
                                     <div class="client">
                                         <a href="#"><img src="assets/images/client/1.png" alt=""></a>
                                     </div>
                                 </div>
 
-                                <!-- Client 2 -->
                                 <div class="col-sm-2 col-xs-4">
                                     <div class="client">
                                         <a href="#"><img src="assets/images/client/2.png" alt=""></a>
                                     </div>
                                 </div>
 
-                                <!-- Client 3 -->
                                 <div class="col-sm-2 col-xs-4">
                                     <div class="client">
                                         <a href="#"><img src="assets/images/client/3.png" alt=""></a>
                                     </div>
                                 </div>
 
-                                <!-- Client 4 -->
                                 <div class="col-sm-2 col-xs-4 mob-margin-top-30">
                                     <div class="client">
                                         <a href="#"><img src="assets/images/client/4.png" alt=""></a>
                                     </div>
                                 </div>
 
-                                <!-- Client 5 -->
                                 <div class="col-sm-2 col-xs-4 mob-margin-top-30">
                                     <div class="client">
                                         <a href="#"><img src="assets/images/client/5.png" alt=""></a>
                                     </div>
                                 </div>
 
-                                <!-- Client 6 -->
                                 <div class="col-sm-2 col-xs-4 mob-margin-top-30">
                                     <div class="client">
                                         <a href="#"><img src="assets/images/client/6.png" alt=""></a>
                                     </div>
                                 </div>
 
-                            </div><!--.row-->
-                        </div><!--.clients-->
+                            </div>
+                        </div> clients-->
 
-                        <!--Fun Facts-->
+                        <!--Fun Facts
                         <div class="fun-facts margin-top-45">
                             <h3 class="subtitle">Fun Facts
                                 <svg width="66px" height="8px" viewBox="0 0 66 8" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -671,8 +859,8 @@
                                         <h5>Projects Done</h5>
                                     </div>
                                 </div>
-                            </div><!--.row-->
-                        </div><!--.fun-facts-->
+                            </div>
+                        </div>fun-facts-->
 
                     </div><!--.container-->
                 </div><!--.content-->
@@ -703,43 +891,27 @@
 
                                 <div class="item">
                                     <div class="date">
-                                        <span>2011 - 2013</span>
+                                        <span>2023</span>
                                     </div>
                                     <div class="content">
-                                        <h4>Educational Specialist</h4>
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer fermentum nibh et metus facilisis sollicitudin.</p>
+                                        <h4>COMPUTER ENGINEER </h4>
+                                        <h5>ESPRIT Monastir
+                                        </h5>
                                     </div>
                                 </div>
 
                                 <div class="item">
                                     <div class="date">
-                                        <span>2008 - 2010</span>
+                                        <span>2020 - 2023</span>
                                     </div>
                                     <div class="content">
-                                        <h4>Doctoral Degree</h4>
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer fermentum nibh et metus facilisis sollicitudin.</p>
+                                        <h4>Licentiate degree, Computer Science</h4>
+                                        <h5>Faculty of sciences of Monastir
+                                        </h5>
+                                        <p>Summarized three years of academic experience in the faculty, encompassing coursework, projects, research, and teamworking, while demonstrating growth, knowledge acquisition, and academic achievements.</p>
                                     </div>
                                 </div>
 
-                                <div class="item">
-                                    <div class="date">
-                                        <span>2005 - 2007</span>
-                                    </div>
-                                    <div class="content">
-                                        <h4>Master Degree</h4>
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer fermentum nibh et metus facilisis sollicitudin.</p>
-                                    </div>
-                                </div>
-
-                                <div class="item">
-                                    <div class="date">
-                                        <span>2000 - 2004</span>
-                                    </div>
-                                    <div class="content">
-                                        <h4>Bachelor Degree</h4>
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer fermentum nibh et metus facilisis sollicitudin.</p>
-                                    </div>
-                                </div>
 
                             </div><!--.col-md-6-->
 
@@ -757,40 +929,51 @@
 
                                 <div class="item">
                                     <div class="date">
-                                        <span>2016 - Present</span>
+                                        <span>2023</span>
                                     </div>
                                     <div class="content">
-                                        <h4>Lead Web Developer</h4>
+                                        <h4>SWMA</h4>
+                                        <p>The role of a cross-platform mobile developer, Pressable component, React Native hooks,  build large and performant lists
+                                            with the FlatList and SectionList components </p>
+                                    </div>
+                                </div>
+
+                                <div class="item">
+                                    <div class="date">
+                                        <span>Jan 2023 - May 2023</span>
+                                    </div>
+                                    <div class="content">
+                                        <h4>SWMA</h4>
                                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer fermentum nibh et metus facilisis sollicitudin.</p>
                                     </div>
                                 </div>
 
                                 <div class="item">
                                     <div class="date">
-                                        <span>2012 - 2015</span>
+                                        <span>Jul 2022 - Sep 2022 </span>
                                     </div>
                                     <div class="content">
-                                        <h4>Senior Web Developer</h4>
+                                        <h4>Pano Vacation</h4>
                                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer fermentum nibh et metus facilisis sollicitudin.</p>
                                     </div>
                                 </div>
 
                                 <div class="item">
                                     <div class="date">
-                                        <span>2010 - 2011</span>
+                                        <span>Freelance</span>
                                     </div>
                                     <div class="content">
-                                        <h4>Junior Web Developer</h4>
+                                        <h4>Joy's Paintings</h4>
                                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer fermentum nibh et metus facilisis sollicitudin.</p>
                                     </div>
                                 </div>
 
                                 <div class="item">
                                     <div class="date">
-                                        <span>2008 - 2009</span>
+                                        <span>Jul 2021 - Sep 2021</span>
                                     </div>
                                     <div class="content">
-                                        <h4>Web Developer</h4>
+                                        <h4>SWMA</h4>
                                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer fermentum nibh et metus facilisis sollicitudin.</p>
                                     </div>
                                 </div>
@@ -803,7 +986,7 @@
             <!--End Resume Section-->
 
 
-            <!--Start Services Section-->
+            <!--Start Services Section
             <section class="services padding-bottom-90 pt-page" id="services">
                 <div class="content">
                     <div class="container">
@@ -812,7 +995,6 @@
                         </div>
                         <div class="row">
 
-                            <!--Service 1-->
                             <div class="col-sm-6 item">
                                 <div class="content">
                                     <div class="font-icon">
@@ -825,7 +1007,6 @@
                                 </div>
                             </div>
 
-                            <!--Service 2-->
                             <div class="col-sm-6 item">
                                 <div class="content">
                                     <div class="font-icon">
@@ -838,11 +1019,10 @@
                                 </div>
                             </div>
 
-                        </div><!--.row-->
+                        </div>
 
                         <div class="row">
 
-                            <!--Service 3-->
                             <div class="col-sm-6 item">
                                 <div class="content">
                                     <div class="font-icon">
@@ -855,7 +1035,6 @@
                                 </div>
                             </div>
 
-                            <!--Service 4-->
                             <div class="col-sm-6 item">
                                 <div class="content">
                                     <div class="font-icon">
@@ -868,11 +1047,10 @@
                                 </div>
                             </div>
 
-                        </div><!--.row-->
+                        </div>
 
                         <div class="row">
 
-                            <!--Service 5-->
                             <div class="col-sm-6 item">
                                 <div class="content">
                                     <div class="font-icon">
@@ -885,7 +1063,6 @@
                                 </div>
                             </div>
 
-                            <!--Service 6-->
                             <div class="col-sm-6 item">
                                 <div class="content">
                                     <div class="font-icon">
@@ -898,11 +1075,11 @@
                                 </div>
                             </div>
 
-                        </div><!--.row-->
-                    </div><!--.container-->
-                </div><!--.content-->
+                        </div>
+                    </div>
+                </div>
             </section>
-            <!--End Services Section-->
+           End Services Section-->
 
 
             <!--Start Portfolio Section-->
@@ -1015,15 +1192,13 @@
                             <div class="col-xs-12 col-sm-6 item design">
                                 <div class="project_content">
                                     <div class="my__img">
-                                        <img src="assets/images/portfolio/work-3.jpg" alt=''>
+                                        <img src="{{asset('logo/LOGO.png')}}" alt=''>
                                     </div>
                                     <div class="info">
                                         <div class="display-table">
                                             <div class="display-table-cell">
-                                                <a href="https://www.youtube.com/watch?v=hpeYWdkUtcE" class="video-popup">
-                                                    <h3>Youtube Video</h3>
+                                                    <h3>Saghroun Project</h3>
                                                     <p>Design</p>
-                                                </a>
                                             </div>
                                         </div>
                                     </div>
@@ -1034,13 +1209,13 @@
                             <div class="col-xs-12 col-sm-6 item logo">
                                 <div class="project_content">
                                     <div class="my__img">
-                                        <img src="assets/images/portfolio/work-4.jpg" alt=''>
+                                        <img src="#" alt=''>
                                     </div>
                                     <div class="info">
                                         <div class="display-table">
                                             <div class="display-table-cell">
                                                 <a href="https://vimeo.com/45830194" class="video-popup">
-                                                    <h3>Vimeo Video</h3>
+                                                    <h3>Saghroun Project</h3>
                                                     <p>logo</p>
                                                 </a>
                                             </div>
