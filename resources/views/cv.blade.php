@@ -933,8 +933,22 @@
                                     </div>
                                     <div class="content">
                                         <h4>SWMA</h4>
-                                        <p>The role of a cross-platform mobile developer, Pressable component, React Native hooks,  build large and performant lists
-                                            with the FlatList and SectionList components </p>
+                                        <h5>Summer Internship</h5>
+
+                                        <p>During my summer internship, I had the opportunity to improve my skills with the  mobile development using React Native for the "Little-Lemon-Restaurant" project. </p>
+
+                                        <h5>Key Projects:</h5>
+
+                                        <ol>
+                                            <li>Mobile Development</li>
+                                            <ul>
+                                                <li> Description</li>
+                                                <p>This project aimed to create a mobile application for a fictional restaurant</p>
+                                                <li>Technologies Used</li>
+                                                <p>React Native</p>
+                                            </ul>
+
+                                        </ol>
                                     </div>
                                 </div>
 
@@ -944,7 +958,31 @@
                                     </div>
                                     <div class="content">
                                         <h4>SWMA</h4>
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer fermentum nibh et metus facilisis sollicitudin.</p>
+                                        <h5>Final Year Internship</h5>
+
+                                        <p>Successfully delivered high-quality design assets and functional web and mobile application and receiving commendation for presentation skills and project execution .
+                                        </p>
+                                        <h5>Key Projects:</h5>
+
+                                        <ol>
+                                            <ul>
+                                                <li> Description</li>
+                                                <p>-Created the first mini-project using Laravel, implementing CRUD (Create, Read, Update, Delete) functionality for products then developed a Landing Page utilizing Laravel Blade and Bootstrap.
+                                                </p>
+                                                <p>
+                                                    -Developed a web-based Dashboard for an administrator and interface for user with Laravel, along with the development of a mobile front-end and Implemented JSON Web Tokens (JWT) for secure authentication in a mobile application
+                                                </p>
+                                                <p>
+                                                    -Designed a distinctive logo and visually appealing flyer for my project , demonstrating creativity and attention to detail.
+
+                                                </p>
+
+                                                <li>Technologies Used</li>
+                                                <p>Laravel PHP Framework, React Native, Adobe Photoshop </p>
+                                            </ul>
+
+                                        </ol>
+
                                     </div>
                                 </div>
 
@@ -954,7 +992,35 @@
                                     </div>
                                     <div class="content">
                                         <h4>Pano Vacation</h4>
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer fermentum nibh et metus facilisis sollicitudin.</p>
+                                        <h5>Summer Internship</h5>
+
+                                        <p>During my summer internship, I worked on various tasks, from solving complex JavaScript problems to developing full-scale web applications. </p>
+                                        <h5>Key Projects:</h5>
+
+                                        <ol>
+                                            <li>JavaScript Problem Solving</li>
+                                            <ul>
+                                                <li> Description</li>
+                                                <p>  Enhanced my debugging and algorithmic thinking, deepened my understanding of JavaScript's string manipulation capabilities.</p>
+                                                <li>Technologies Used</li>
+                                                <p>JavaScript</p>
+                                            </ul>
+                                            <li>Node.js Backend Application Development</li>
+                                            <ul>
+                                                <li> Description</li>
+                                                <p>A To-Do list can be created</p>
+                                                <li>Technologies Used</li>
+                                                <p>Node.js</p>
+                                            </ul>
+                                            <li>Preparatory Work for Future Final Year Project</li>
+                                            <ul>
+                                                <li> Description</li>
+                                                <p>Develop a website for doctors and studying best practices in design and UX to enhance user satisfaction</p>
+                                                <li>Technologies Used</li>
+                                                <p>PHP, MySQL </p>
+                                            </ul>
+                                        </ol>
+
                                     </div>
                                 </div>
 
@@ -964,7 +1030,7 @@
                                     </div>
                                     <div class="content">
                                         <h4>Joy's Paintings</h4>
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer fermentum nibh et metus facilisis sollicitudin.</p>
+                                        <p>Painting is my favorite way to express myself.There's nothing quite like the satisfaction of stepping back and seeing a finished piece that started as just an idea.  </p>
                                     </div>
                                 </div>
 
@@ -974,7 +1040,27 @@
                                     </div>
                                     <div class="content">
                                         <h4>SWMA</h4>
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer fermentum nibh et metus facilisis sollicitudin.</p>
+                                        <h5>Summer Internship</h5>
+                                        <p>Collaborated closely with a team of developers and testers to ensure the delivery of high-quality, error-free software products. </p>
+                                        <h5>Key Projects:</h5>
+
+                                        <ol>
+                                            <li>Game Development</li>
+                                            <ul>
+                                                <li> Description</li>
+                                                <p>Developed two interactive games designed to offer users engaging and enjoyable experiences. Utilized JavaScript for game logic and CSS for visual styling</p>
+                                                <li>Technologies Used</li>
+                                                <p>JavaScript, CSS</p>
+                                            </ul>
+                                            <li>Website Development</li>
+                                            <ul>
+                                                <li> Description</li>
+                                                <p>Designed and implemented a fully functional, responsive website from scratch.</p>
+                                                <li>Technologies Used</li>
+                                                <p>HTML, CSS, Bootstrap, Adobe Photoshop</p>
+                                            </ul>
+                                        </ol>
+
                                     </div>
                                 </div>
 
@@ -1093,23 +1179,141 @@
                             <li data-filter="*" class="active_filter">all</li>
                             <li data-filter=".logo">logo</li>
                             <li data-filter=".coding">coding</li>
-                            <li data-filter=".design">Design</li>
+                            <li data-filter=".painting">Painting</li>
                         </ul>
 
                         <div class="row grid">
 
                             <!--project 1 (Project popup)-->
-                            <div class="col-xs-12 col-sm-6 item grid-sizer design">
+                            <div class="col-xs-12 col-sm-6 item grid-sizer painting">
                                 <div class="project_content">
                                     <div class="my__img">
-                                        <img src="assets/images/portfolio/work-1.jpg" alt=''>
+                                        <img src="{{asset('painting/1.jpeg')}}" alt=''>
                                     </div>
                                     <div class="info">
                                         <div class="display-table">
                                             <div class="display-table-cell">
-                                                <a class="popup-with-zoom-anim" href="#slider_popup">
-                                                    <h3>Project Popup</h3>
-                                                    <p>Design</p>
+                                                <a class="popup-with-zoom-anim">
+                                                    <p>Painting</p>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--project 2 (Project popup)-->
+                            <div class="col-xs-12 col-sm-6 item grid-sizer painting">
+                                <div class="project_content">
+                                    <div class="my__img">
+                                        <img src="{{asset('painting/2.jpeg')}}" alt=''>
+                                    </div>
+                                    <div class="info">
+                                        <div class="display-table">
+                                            <div class="display-table-cell">
+                                                <a class="popup-with-zoom-anim">
+                                                    <p>Painting</p>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--project 3 (Project popup)-->
+                            <div class="col-xs-12 col-sm-6 item grid-sizer painting">
+                                <div class="project_content">
+                                    <div class="my__img">
+                                        <img src="{{asset('painting/3.jpeg')}}" alt=''>
+                                    </div>
+                                    <div class="info">
+                                        <div class="display-table">
+                                            <div class="display-table-cell">
+                                                <a class="popup-with-zoom-anim">
+                                                    <p>Painting</p>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--project 4 (Project popup)-->
+                            <div class="col-xs-12 col-sm-6 item grid-sizer painting">
+                                <div class="project_content">
+                                    <div class="my__img">
+                                        <img src="{{asset('painting/4.jpeg')}}" alt=''>
+                                    </div>
+                                    <div class="info">
+                                        <div class="display-table">
+                                            <div class="display-table-cell">
+                                                <a class="popup-with-zoom-anim">
+                                                    <p>Painting</p>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--project 5 (Project popup)-->
+                            <div class="col-xs-12 col-sm-6 item grid-sizer painting">
+                                <div class="project_content">
+                                    <div class="my__img">
+                                        <img src="{{asset('painting/5.jpeg')}}" alt=''>
+                                    </div>
+                                    <div class="info">
+                                        <div class="display-table">
+                                            <div class="display-table-cell">
+                                                <a class="popup-with-zoom-anim">
+                                                    <p>Painting</p>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--project 6 (Project popup)-->
+                            <div class="col-xs-12 col-sm-6 item grid-sizer painting">
+                                <div class="project_content">
+                                    <div class="my__img">
+                                        <img src="{{asset('painting/6.jpeg')}}" alt=''>
+                                    </div>
+                                    <div class="info">
+                                        <div class="display-table">
+                                            <div class="display-table-cell">
+                                                <a class="popup-with-zoom-anim">
+                                                    <p>Painting</p>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--project 7 (Project popup)-->
+                            <div class="col-xs-12 col-sm-6 item grid-sizer painting">
+                                <div class="project_content">
+                                    <div class="my__img">
+                                        <img src="{{asset('painting/7.jpeg')}}" alt=''>
+                                    </div>
+                                    <div class="info">
+                                        <div class="display-table">
+                                            <div class="display-table-cell">
+                                                <a class="popup-with-zoom-anim">
+                                                    <p>Painting</p>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--project 8 (Project popup)-->
+                            <div class="col-xs-12 col-sm-6 item grid-sizer painting">
+                                <div class="project_content">
+                                    <div class="my__img">
+                                        <img src="{{asset('painting/8.jpeg')}}" alt=''>
+                                    </div>
+                                    <div class="info">
+                                        <div class="display-table">
+                                            <div class="display-table-cell">
+                                                <a class="popup-with-zoom-anim">
+                                                    <p>Painting</p>
                                                 </a>
                                             </div>
                                         </div>
@@ -1173,13 +1377,16 @@
                             <div class="col-xs-12 col-sm-6 item coding">
                                 <div class="project_content">
                                     <div class="my_img" data-mfp-src="assets/images/portfolio/work-2.jpg">
-                                        <img src="assets/images/portfolio/work-2.jpg" alt=''>
+
+
+                                        <img src="{{asset('coding/p1.png')}}" alt=''>
                                     </div>
                                     <div class="info">
                                         <div class="display-table">
                                             <div class="display-table-cell">
                                                 <a href="#" class="image_overlay">
-                                                    <h3>Image Overlay</h3>
+                                                    <a href="https://github.com/farahoumezzine/The-Other-Side-Of-The-World.git">
+                                                    <h3>The-Other-Side-Of-The-World</h3></a>
                                                     <p>coding</p>
                                                 </a>
                                             </div>
@@ -1187,9 +1394,188 @@
                                     </div>
                                 </div>
                             </div>
+                            <!--project 2 (Image Overlay)-->
+                            <div class="col-xs-12 col-sm-6 item coding">
+                                <div class="project_content">
+                                    <div class="my_img" data-mfp-src="assets/images/portfolio/work-2.jpg">
+                                        <a href="https://github.com/farahoumezzine/Drum-Kit.git">
 
+                                            <img src="{{asset('coding/p3.png')}}" alt=''></a>
+                                    </div>
+                                    <div class="info">
+                                        <div class="display-table">
+                                            <div class="display-table-cell">
+                                                <a href="#" class="image_overlay">
+                                                    <h3>Drum-Kit</h3>
+                                                    <p>coding</p>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--project 2 (Image Overlay)-->
+                            <div class="col-xs-12 col-sm-6 item coding">
+                                <div class="project_content">
+                                    <div class="my_img" data-mfp-src="assets/images/portfolio/work-2.jpg">
+                                        <a href="https://github.com/farahoumezzine/Simon.git">
+
+                                            <img src="{{asset('coding/p2.png')}}" alt=''></a>
+                                    </div>
+                                    <div class="info">
+                                        <div class="display-table">
+                                            <div class="display-table-cell">
+                                                <a href="#" class="image_overlay">
+                                                    <h3>Simon</h3>
+                                                    <p>coding</p>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--project 2 (Image Overlay)-->
+                            <div class="col-xs-12 col-sm-6 item coding">
+                                <div class="project_content">
+                                    <div class="my_img" data-mfp-src="assets/images/portfolio/work-2.jpg">
+                                        <a href="https://github.com/farahoumezzine/ToDoList.git">
+
+                                            <img src="{{asset('coding/node.png')}}" alt=''></a>
+                                    </div>
+                                    <div class="info">
+                                        <div class="display-table">
+                                            <div class="display-table-cell">
+                                                <a href="#" class="image_overlay">
+                                                    <h3>To Do List</h3>
+                                                    <p>coding</p>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--project 2 (Image Overlay)-->
+                            <div class="col-xs-12 col-sm-6 item coding">
+                                <div class="project_content">
+                                    <div class="my_img" data-mfp-src="assets/images/portfolio/work-2.jpg">
+                                        <a href="https://github.com/farahoumezzine/laravel-crud.git">
+
+                                            <img src="{{asset('coding/1677780279349.png')}}" alt=''></a>
+                                    </div>
+                                    <div class="info">
+                                        <div class="display-table">
+                                            <div class="display-table-cell">
+                                                <a href="#" class="image_overlay">
+                                                    <h3>laravel-crud</h3>
+                                                    <p>coding</p>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--project 2 (Image Overlay)-->
+                            <div class="col-xs-12 col-sm-6 item coding">
+                                <div class="project_content">
+                                    <div class="my_img" data-mfp-src="assets/images/portfolio/work-2.jpg">
+                                        <a href="https://github.com/farahoumezzine/React_Login.git">
+
+                                            <img src="{{asset('coding/img.png')}}" alt=''></a>
+                                    </div>
+                                    <div class="info">
+                                        <div class="display-table">
+                                            <div class="display-table-cell">
+                                                <a href="#" class="image_overlay">
+                                                    <h3>React_Login</h3>
+                                                    <p>coding</p>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--project 2 (Image Overlay)-->
+                            <div class="col-xs-12 col-sm-6 item coding">
+                                <div class="project_content">
+                                    <div class="my_img" data-mfp-src="assets/images/portfolio/work-2.jpg">
+                                        <a href="https://github.com/farahoumezzine/WasteWisePlastic.git">
+
+                                            <img src="{{asset('coding/waste.png')}}" alt=''></a>
+                                    </div>
+                                    <div class="info">
+                                        <div class="display-table">
+                                            <div class="display-table-cell">
+                                                <a href="#" class="image_overlay">
+                                                    <h3>Waste Wise Plastic</h3>
+                                                    <p>coding</p>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--project 2 (Image Overlay)-->
+                            <div class="col-xs-12 col-sm-6 item coding">
+                                <div class="project_content">
+                                    <div class="my_img" data-mfp-src="assets/images/portfolio/work-2.jpg">
+                                        <a href="https://github.com/farahoumezzine/AgriZone.git">
+
+                                            <img src="{{asset('coding/agri.png')}}" alt=''></a>
+                                    </div>
+                                    <div class="info">
+                                        <div class="display-table">
+                                            <div class="display-table-cell">
+                                                <a href="#" class="image_overlay">
+                                                    <h3>AgriZone</h3>
+                                                    <p>coding</p>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--project 2 (Image Overlay)-->
+                            <div class="col-xs-12 col-sm-6 item coding">
+                                <div class="project_content">
+                                    <div class="my_img" data-mfp-src="assets/images/portfolio/work-2.jpg">
+                                        <a href="https://github.com/farahoumezzine/PFA_Saghroun.git">
+
+                                            <img src="{{asset('coding/')}}" alt=''></a>
+                                    </div>
+                                    <div class="info">
+                                        <div class="display-table">
+                                            <div class="display-table-cell">
+                                                <a href="#" class="image_overlay">
+                                                    <h3>PFA_Saghroun</h3>
+                                                    <p>coding</p>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--project 2 (Image Overlay)-->
+                            <div class="col-xs-12 col-sm-6 item coding">
+                                <div class="project_content">
+                                    <div class="my_img" data-mfp-src="assets/images/portfolio/work-2.jpg">
+                                        <a href="https://github.com/farahoumezzine/Little-Lemon-Restaurant.git">
+
+                                            <img src="{{asset('coding/rest.webp')}}" alt=''></a>
+                                    </div>
+                                    <div class="info">
+                                        <div class="display-table">
+                                            <div class="display-table-cell">
+                                                <a href="#" class="image_overlay">
+                                                    <h3>Little-Lemon-Restaurant</h3>
+                                                    <p>coding</p>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                             <!--project 3 (Youtube Video)-->
-                            <div class="col-xs-12 col-sm-6 item design">
+                            <div class="col-xs-12 col-sm-6 item logo">
                                 <div class="project_content">
                                     <div class="my__img">
                                         <img src="{{asset('logo/LOGO.png')}}" alt=''>
@@ -1198,45 +1584,55 @@
                                         <div class="display-table">
                                             <div class="display-table-cell">
                                                     <h3>Saghroun Project</h3>
-                                                    <p>Design</p>
+                                                    <p>Logo</p>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
-
-                            <!--project 4 (Vimeo Video)-->
+                            <!--project joys (Youtube Video)-->
                             <div class="col-xs-12 col-sm-6 item logo">
                                 <div class="project_content">
                                     <div class="my__img">
-                                        <img src="#" alt=''>
+                                        <img src="{{asset('logo/joyslogo.jpeg')}}" alt=''>
                                     </div>
                                     <div class="info">
                                         <div class="display-table">
                                             <div class="display-table-cell">
-                                                <a href="https://vimeo.com/45830194" class="video-popup">
-                                                    <h3>Saghroun Project</h3>
-                                                    <p>logo</p>
-                                                </a>
+                                                <h3>Joy's Paintings Project</h3>
+                                                <p>Logo</p>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
-
+                            <!--project PFE (Youtube Video)-->
+                            <div class="col-xs-12 col-sm-6 item logo">
+                                <div class="project_content">
+                                    <div class="my__img">
+                                        <img src="{{asset('logo/logoapp1.png')}}" alt=''>
+                                    </div>
+                                    <div class="info">
+                                        <div class="display-table">
+                                            <div class="display-table-cell">
+                                                <h3>Digital Bliss Medical Project</h3>
+                                                <p>Logo</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                             <!--project 5 (open url)-->
                             <div class="col-xs-12 col-sm-6 item logo">
                                 <div class="project_content">
                                     <div class="my__img">
-                                        <img src="assets/images/portfolio/work-5.jpg" alt=''>
+                                        <img src="{{asset('logo/logo.jpg')}}" alt=''>
                                     </div>
                                     <div class="info">
                                         <div class="display-table">
                                             <div class="display-table-cell">
-                                                <a href="http://www.google.com/" target="_blank">
-                                                    <h3>Project website</h3>
+                                                    <h3>Waste Wise Plastic Project </h3>
                                                     <p>logo</p>
-                                                </a>
                                             </div>
                                         </div>
                                     </div>
