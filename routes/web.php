@@ -19,3 +19,4 @@ Route::get('/', function () {
 });
 
 Route::get("/OumezzineFarah",[WelcomeSite::class,'index'])->name('WelcomeSite');
+//Route::post("/send_message",[WelcomeSite::class,'sendEmail'])->name('contactsend');

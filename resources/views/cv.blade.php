@@ -16,6 +16,14 @@
     <!-- icons -->
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+    <!-- Add Magnific Popup CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css">
+
+    <!-- Add jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <!-- Add Magnific Popup JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
 
     <!-- Google Fonts-->
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Quicksand:300,400,500,700">
@@ -119,7 +127,7 @@
                                     <span class="info-body">Available</span>
                                 </div>
 
-                                <a href="#">RESUME</a>
+                                <a href="#resume" class="goToSec">RESUME</a>
                                 <a href="#contact" class="goToSec">HIRE ME</a>
 
                             </div><!--.more_info-->
@@ -162,7 +170,7 @@
                     <!--Social links-->
                     <div class="social-icons">
 
-                        <a href="www.linkedin.com/in/farah-oumezzine">
+                        <a href="https://www.linkedin.com/in/farah-oumezzine/">
                             <i class="fa fa-linkedin"></i>
                         </a>
                         <a href="https://oumezzine-farah.blogspot.com/">
@@ -274,10 +282,10 @@
                                         <span class="true"></span>
                                         <span class="true"></span>
                                         <span class="true"></span>
-                                        <span class="false"></span>
+                                        <span class="true"></span>
                                         <span class="false"></span>
                                     </div>
-                                    <span>advanced</span>
+                                    <span>Expert</span>
                                 </div>
 
                                 <!-- Skill 3-1 -->
@@ -1373,10 +1381,10 @@
                                 </div>
                             </div>
 
-                            <!--project 2 (Image Overlay)-->
+                            <!--project 1 (Image Overlay)-->
                             <div class="col-xs-12 col-sm-6 item coding">
                                 <div class="project_content">
-                                    <div class="my_img" data-mfp-src="assets/images/portfolio/work-2.jpg">
+                                    <div class="my_img" data-mfp-src="{{asset('coding/p1.png')}}">
 
 
                                         <img src="{{asset('coding/p1.png')}}" alt=''>
@@ -1397,16 +1405,17 @@
                             <!--project 2 (Image Overlay)-->
                             <div class="col-xs-12 col-sm-6 item coding">
                                 <div class="project_content">
-                                    <div class="my_img" data-mfp-src="assets/images/portfolio/work-2.jpg">
-                                        <a href="https://github.com/farahoumezzine/Drum-Kit.git">
+                                    <div class="my_img" data-mfp-src="{{asset('coding/p3.png')}}">
 
-                                            <img src="{{asset('coding/p3.png')}}" alt=''></a>
+                                            <img src="{{asset('coding/p3.png')}}" alt=''>
                                     </div>
                                     <div class="info">
                                         <div class="display-table">
                                             <div class="display-table-cell">
                                                 <a href="#" class="image_overlay">
-                                                    <h3>Drum-Kit</h3>
+                                                    <a href="https://github.com/farahoumezzine/Drum-Kit.git">
+
+                                                    <h3>Drum-Kit</h3></a>
                                                     <p>coding</p>
                                                 </a>
                                             </div>
@@ -1414,19 +1423,20 @@
                                     </div>
                                 </div>
                             </div>
-                            <!--project 2 (Image Overlay)-->
+                            <!--project 3 (Image Overlay)-->
                             <div class="col-xs-12 col-sm-6 item coding">
                                 <div class="project_content">
-                                    <div class="my_img" data-mfp-src="assets/images/portfolio/work-2.jpg">
-                                        <a href="https://github.com/farahoumezzine/Simon.git">
+                                    <div class="my_img" data-mfp-src="{{asset('coding/p2.png')}}">
 
-                                            <img src="{{asset('coding/p2.png')}}" alt=''></a>
+                                            <img src="{{asset('coding/p2.png')}}" alt=''>
                                     </div>
                                     <div class="info">
                                         <div class="display-table">
                                             <div class="display-table-cell">
                                                 <a href="#" class="image_overlay">
-                                                    <h3>Simon</h3>
+                                                    <a href="https://github.com/farahoumezzine/Simon.git">
+
+                                                    <h3>Simon</h3></a>
                                                     <p>coding</p>
                                                 </a>
                                             </div>
@@ -1434,19 +1444,20 @@
                                     </div>
                                 </div>
                             </div>
-                            <!--project 2 (Image Overlay)-->
+                            <!--project 4 (Image Overlay)-->
                             <div class="col-xs-12 col-sm-6 item coding">
                                 <div class="project_content">
-                                    <div class="my_img" data-mfp-src="assets/images/portfolio/work-2.jpg">
-                                        <a href="https://github.com/farahoumezzine/ToDoList.git">
+                                    <div class="my_img" data-mfp-src="{{asset('coding/node.png')}}">
 
-                                            <img src="{{asset('coding/node.png')}}" alt=''></a>
+                                            <img src="{{asset('coding/node.png')}}" alt=''>
                                     </div>
                                     <div class="info">
                                         <div class="display-table">
                                             <div class="display-table-cell">
                                                 <a href="#" class="image_overlay">
-                                                    <h3>To Do List</h3>
+                                                    <a href="https://github.com/farahoumezzine/ToDoList.git">
+
+                                                    <h3>To Do List</h3></a>
                                                     <p>coding</p>
                                                 </a>
                                             </div>
@@ -1454,19 +1465,20 @@
                                     </div>
                                 </div>
                             </div>
-                            <!--project 2 (Image Overlay)-->
+                            <!--project 5 (Image Overlay)-->
                             <div class="col-xs-12 col-sm-6 item coding">
                                 <div class="project_content">
-                                    <div class="my_img" data-mfp-src="assets/images/portfolio/work-2.jpg">
-                                        <a href="https://github.com/farahoumezzine/laravel-crud.git">
+                                    <div class="my_img" data-mfp-src="{{asset('coding/1677780279349.png')}}">
 
-                                            <img src="{{asset('coding/1677780279349.png')}}" alt=''></a>
+                                            <img src="{{asset('coding/1677780279349.png')}}" alt=''>
                                     </div>
                                     <div class="info">
                                         <div class="display-table">
                                             <div class="display-table-cell">
                                                 <a href="#" class="image_overlay">
-                                                    <h3>laravel-crud</h3>
+                                                    <a href="https://github.com/farahoumezzine/laravel-crud.git">
+
+                                                    <h3>laravel-crud</h3></a>
                                                     <p>coding</p>
                                                 </a>
                                             </div>
@@ -1474,19 +1486,20 @@
                                     </div>
                                 </div>
                             </div>
-                            <!--project 2 (Image Overlay)-->
+                            <!--project 6 (Image Overlay)-->
                             <div class="col-xs-12 col-sm-6 item coding">
                                 <div class="project_content">
-                                    <div class="my_img" data-mfp-src="assets/images/portfolio/work-2.jpg">
-                                        <a href="https://github.com/farahoumezzine/React_Login.git">
+                                    <div class="my_img" data-mfp-src="{{asset('coding/img.png')}}">
 
-                                            <img src="{{asset('coding/img.png')}}" alt=''></a>
+                                            <img src="{{asset('coding/img.png')}}" alt=''>
                                     </div>
                                     <div class="info">
                                         <div class="display-table">
                                             <div class="display-table-cell">
                                                 <a href="#" class="image_overlay">
-                                                    <h3>React_Login</h3>
+                                                    <a href="https://github.com/farahoumezzine/React_Login.git">
+
+                                                    <h3>React_Login</h3></a>
                                                     <p>coding</p>
                                                 </a>
                                             </div>
@@ -1494,19 +1507,20 @@
                                     </div>
                                 </div>
                             </div>
-                            <!--project 2 (Image Overlay)-->
+                            <!--project 7 (Image Overlay)-->
                             <div class="col-xs-12 col-sm-6 item coding">
                                 <div class="project_content">
-                                    <div class="my_img" data-mfp-src="assets/images/portfolio/work-2.jpg">
-                                        <a href="https://github.com/farahoumezzine/WasteWisePlastic.git">
+                                    <div class="my_img" data-mfp-src="{{asset('coding/waste.png')}}">
 
-                                            <img src="{{asset('coding/waste.png')}}" alt=''></a>
+                                            <img src="{{asset('coding/waste.png')}}" alt=''>
                                     </div>
                                     <div class="info">
                                         <div class="display-table">
                                             <div class="display-table-cell">
                                                 <a href="#" class="image_overlay">
-                                                    <h3>Waste Wise Plastic</h3>
+                                                    <a href="https://github.com/farahoumezzine/WasteWisePlastic.git">
+
+                                                    <h3>Waste Wise Plastic</h3></a>
                                                     <p>coding</p>
                                                 </a>
                                             </div>
@@ -1514,19 +1528,20 @@
                                     </div>
                                 </div>
                             </div>
-                            <!--project 2 (Image Overlay)-->
+                            <!--project 8 (Image Overlay)-->
                             <div class="col-xs-12 col-sm-6 item coding">
                                 <div class="project_content">
-                                    <div class="my_img" data-mfp-src="assets/images/portfolio/work-2.jpg">
-                                        <a href="https://github.com/farahoumezzine/AgriZone.git">
+                                    <div class="my_img" data-mfp-src="{{asset('coding/agri.png')}}" >
 
-                                            <img src="{{asset('coding/agri.png')}}" alt=''></a>
+                                            <img src="{{asset('coding/agri.png')}}" alt=''>
                                     </div>
                                     <div class="info">
                                         <div class="display-table">
                                             <div class="display-table-cell">
                                                 <a href="#" class="image_overlay">
-                                                    <h3>AgriZone</h3>
+                                                    <a href="https://github.com/farahoumezzine/AgriZone.git">
+
+                                                    <h3>AgriZone</h3></a>
                                                     <p>coding</p>
                                                 </a>
                                             </div>
@@ -1534,19 +1549,20 @@
                                     </div>
                                 </div>
                             </div>
-                            <!--project 2 (Image Overlay)-->
+                            <!--project 9 (Image Overlay)-->
                             <div class="col-xs-12 col-sm-6 item coding">
                                 <div class="project_content">
-                                    <div class="my_img" data-mfp-src="assets/images/portfolio/work-2.jpg">
-                                        <a href="https://github.com/farahoumezzine/PFA_Saghroun.git">
+                                    <div class="my_img" data-mfp-src="{{asset('coding/img_1.png')}}">
 
-                                            <img src="{{asset('coding/')}}" alt=''></a>
+                                            <img src="{{asset('coding/img_1.png')}}" alt=''>
                                     </div>
                                     <div class="info">
                                         <div class="display-table">
                                             <div class="display-table-cell">
                                                 <a href="#" class="image_overlay">
-                                                    <h3>PFA_Saghroun</h3>
+                                                    <a href="https://github.com/farahoumezzine/PFA_Saghroun.git">
+
+                                                    <h3>PFA_Saghroun</h3></a>
                                                     <p>coding</p>
                                                 </a>
                                             </div>
@@ -1554,19 +1570,20 @@
                                     </div>
                                 </div>
                             </div>
-                            <!--project 2 (Image Overlay)-->
+                            <!--project 10 (Image Overlay)-->
                             <div class="col-xs-12 col-sm-6 item coding">
                                 <div class="project_content">
-                                    <div class="my_img" data-mfp-src="assets/images/portfolio/work-2.jpg">
-                                        <a href="https://github.com/farahoumezzine/Little-Lemon-Restaurant.git">
+                                    <div class="my_img" data-mfp-src="{{asset('coding/rest.webp')}}">
 
-                                            <img src="{{asset('coding/rest.webp')}}" alt=''></a>
+                                            <img src="{{asset('coding/rest.webp')}}" alt=''>
                                     </div>
                                     <div class="info">
                                         <div class="display-table">
                                             <div class="display-table-cell">
                                                 <a href="#" class="image_overlay">
-                                                    <h3>Little-Lemon-Restaurant</h3>
+                                                    <a href="https://github.com/farahoumezzine/Little-Lemon-Restaurant.git">
+
+                                                    <h3>Little-Lemon-Restaurant</h3></a>
                                                     <p>coding</p>
                                                 </a>
                                             </div>
@@ -1574,7 +1591,33 @@
                                     </div>
                                 </div>
                             </div>
-                            <!--project 3 (Youtube Video)-->
+                            <!--project 11 (Image Overlay)-->
+                            <div class="col-xs-12 col-sm-6 item coding">
+                                <div class="project_content">
+                                    <div class="my_img">
+                                        <img src="{{asset('project/pro1.png')}}" alt=''>
+                                    </div>
+                                    <div class="info">
+                                        <div class="display-table">
+                                            <div class="display-table-cell">
+                                                <!-- Use data-mfp-src to specify the source URL for Magnific Popup -->
+                                                <a  class="image_overlay" data-mfp-src="{{asset('project/pro2.png')}}">
+                                                    <h3>WordPress</h3>
+                                                    <p>coding</p>
+                                                </a>
+                                                <a href="{{asset('project/pro1.png')}}" class="image_overlay" data-mfp-src="{{asset('project/pro1.png')}}"></a>
+                                                <a href="{{asset('project/pro2.png')}}" class="image_overlay" data-mfp-src="{{asset('project/pro2.png')}}"></a>
+                                                <a href="{{asset('project/pro3.png')}}" class="image_overlay" data-mfp-src="{{asset('project/pro3.png')}}"></a>
+                                                <a href="{{asset('project/pro4.png')}}" class="image_overlay" data-mfp-src="{{asset('project/pro4.png')}}"></a>
+                                                <a href="{{asset('project/pro5.png')}}" class="image_overlay" data-mfp-src="{{asset('project/pro5.png')}}"></a>
+                                                <a href="{{asset('project/pro6.png')}}" class="image_overlay" data-mfp-src="{{asset('project/pro6.png')}}"></a>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--logo1 -->
                             <div class="col-xs-12 col-sm-6 item logo">
                                 <div class="project_content">
                                     <div class="my__img">
@@ -1590,7 +1633,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <!--project joys (Youtube Video)-->
+                            <!--logo2-->
                             <div class="col-xs-12 col-sm-6 item logo">
                                 <div class="project_content">
                                     <div class="my__img">
@@ -1606,7 +1649,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <!--project PFE (Youtube Video)-->
+                            <!--logo3-->
                             <div class="col-xs-12 col-sm-6 item logo">
                                 <div class="project_content">
                                     <div class="my__img">
@@ -1622,7 +1665,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <!--project 5 (open url)-->
+                            <!--logo4-->
                             <div class="col-xs-12 col-sm-6 item logo">
                                 <div class="project_content">
                                     <div class="my__img">
@@ -1639,24 +1682,7 @@
                                 </div>
                             </div>
 
-                            <!--project 6 (Image Overlay)-->
-                            <div class="col-xs-12 col-sm-6 item coding">
-                                <div class="project_content">
-                                    <div class="my_img" data-mfp-src="assets/images/portfolio/work-6.jpg">
-                                        <img src="assets/images/portfolio/work-6.jpg" alt=''>
-                                    </div>
-                                    <div class="info">
-                                        <div class="display-table">
-                                            <div class="display-table-cell">
-                                                <a href="#" class="image_overlay">
-                                                    <h3>Image Overlay</h3>
-                                                    <p>coding</p>
-                                                </a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
+
 
                         </div>
                     </div><!--.container-->
@@ -1681,13 +1707,13 @@
                                     <a href="#">
                                         <div class="blog__img">
                                             <i class="pe-7s-news-paper"></i>
-                                            <img src="assets/images/blog/blog-1.jpg" alt="">
+                                            <img src="{{asset('blog/blog1.webp')}}"  alt="">
                                         </div>
                                     </a>
                                     <div class="content matchH">
-                                        <p class="info">March 19, 2018</p>
+                                        <p class="info">Jan 11, 2024</p>
                                         <h3>
-                                            <a href="#">100 Ways to be more happy</a>
+                                            <a href="https://medium.com/@OumezzineFarah/php-mysql-connection-management-and-database-operations-c208baedac6a">PHP MySQL Connection management AND Database Operations</a>
                                         </h3>
                                     </div>
                                 </div>
@@ -1699,13 +1725,14 @@
                                     <a href="#">
                                         <div class="blog__img">
                                             <i class="pe-7s-news-paper"></i>
-                                            <img src="assets/images/blog/blog-2.jpg" alt="">
+                                            <img src="{{asset('blog/blog2.webp')}}" alt="">
                                         </div>
                                     </a>
                                     <div class="content matchH">
-                                        <p class="info">March 19, 2018</p>
+                                        <p class="info">
+                                            Oct 22, 2023</p>
                                         <h3>
-                                            <a href="#">Tips to losing more weight</a>
+                                            <a href="https://medium.com/@OumezzineFarah/application-programming-interface-restful-apis-4056fcfe02ad">Application Programming Interface RESTful APIs</a>
                                         </h3>
                                     </div>
                                 </div>
@@ -1720,13 +1747,13 @@
                                     <a href="#">
                                         <div class="blog__img">
                                             <i class="pe-7s-news-paper"></i>
-                                            <img src="assets/images/blog/blog-3.jpg" alt="">
+                                            <img src="{{asset('blog/blog3.webp')}}"  alt="">
                                         </div>
                                     </a>
                                     <div class="content matchH">
-                                        <p class="info">March 19, 2018</p>
+                                        <p class="info">Aug 15, 2023</p>
                                         <h3>
-                                            <a href="#">100 Ways to be more happy</a>
+                                            <a href="https://medium.com/@OumezzineFarah/scrollview-vs-flatlist-vs-sectionlist-components-in-react-native-c6992623f60c">ScrollView Vs FlatList Vs SectionList Components in “React Native”</a>
                                         </h3>
                                     </div>
                                 </div>
@@ -1738,13 +1765,14 @@
                                     <a href="#">
                                         <div class="blog__img">
                                             <i class="pe-7s-news-paper"></i>
-                                            <img src="assets/images/blog/blog-4.jpg" alt="">
+                                            <img src="{{asset('blog/blog4.webp')}}" alt="">
                                         </div>
                                     </a>
                                     <div class="content matchH">
-                                        <p class="info">March 19, 2018</p>
+                                        <p class="info">
+                                            Jul 29, 2022</p>
                                         <h3>
-                                            <a href="#">Tips to losing more weight</a>
+                                            <a href="https://medium.com/@OumezzineFarah/css-with-superpowers-199b3a0f1fa7">CSS with superpowers</a>
                                         </h3>
                                     </div>
                                 </div>
@@ -1759,13 +1787,13 @@
                                     <a href="#">
                                         <div class="blog__img">
                                             <i class="pe-7s-news-paper"></i>
-                                            <img src="assets/images/blog/blog-5.jpg" alt="">
+                                            <img src="{{asset('blog/blog5.webp')}}" alt="">
                                         </div>
                                     </a>
                                     <div class="content matchH">
-                                        <p class="info">March 19, 2018</p>
+                                        <p class="info">Jan 26, 2022</p>
                                         <h3>
-                                            <a href="#">100 Ways to be more happy</a>
+                                            <a href="https://medium.com/@OumezzineFarah/am-i-an-entrepreneur-are-you-an-entrepreneur-73d684f8fed7">Am I an entrepreneur? Are you an entrepreneur?</a>
                                         </h3>
                                     </div>
                                 </div>
@@ -1777,13 +1805,14 @@
                                     <a href="#">
                                         <div class="blog__img">
                                             <i class="pe-7s-news-paper"></i>
-                                            <img src="assets/images/blog/blog-6.jpg" alt="">
+                                            <img src="{{asset('blog/blog6.webp')}}" alt="">
                                         </div>
                                     </a>
                                     <div class="content matchH">
-                                        <p class="info">March 19, 2018</p>
+                                        <p class="info">
+                                            Dec 25, 2021</p>
                                         <h3>
-                                            <a href="#">Tips to losing more weight</a>
+                                            <a href="https://medium.com/@OumezzineFarah/net-and-c-33071dd58f6f">T.Net and c#?</a>
                                         </h3>
                                     </div>
                                 </div>
@@ -1805,7 +1834,7 @@
                         </div>
 
                         <div class="row">
-                            <div class="col-sm-5">
+                            <div class="col-sm-12">
                                 <h3 class="subtitle">Get in Touch
                                     <svg width="66px" height="8px" viewBox="0 0 66 8" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
                                         <g class="Web" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(-147.000000, -464.000000)" opacity="0.2" stroke-linecap="round" stroke-linejoin="round">
@@ -1815,14 +1844,13 @@
                                         </g>
                                     </svg>
                                 </h3>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
                                 <div class="info">
 
                                     <div class="item">
                                         <span class="pe-7s-map-marker pe-3x pe-va icon"></span>
                                         <div>
                                             <span>Find Me</span>
-                                            <p>New York, NY</p>
+                                            <p>Monastir, TN</p>
                                         </div>
                                     </div>
 
@@ -1830,7 +1858,9 @@
                                         <span class="pe-7s-mail pe-3x pe-va icon"></span>
                                         <div>
                                             <span>Mail Me</span>
-                                            <p><a href="mailto:your@example.com">Your@example.com</a></p>
+                                            <p><a href="mailto:farah.omezzine@esprim.tn">farah.omezzine@esprim.tn</a></p>
+                                            <p><a href="mailto:oumezzinefarah@outlook.com">oumezzinefarah@outlook.com</a></p>
+
                                         </div>
                                     </div>
 
@@ -1838,35 +1868,13 @@
                                         <span class="pe-7s-call pe-3x pe-va icon"></span>
                                         <div>
                                             <span>Call Me</span>
-                                            <p>+123 456 789</p>
+                                            <p>+216 99 0299 43</p>
                                         </div>
                                     </div>
 
                                 </div>
                             </div>
-                            <div class="col-sm-7">
-                                <h3 class="subtitle">Contact Form
-                                    <svg width="66px" height="8px" viewBox="0 0 66 8" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-                                        <g class="Web" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(-147.000000, -464.000000)" opacity="0.2" stroke-linecap="round" stroke-linejoin="round">
-                                            <g class="Header" stroke="#FFFFFF" stroke-width="3">
-                                                <path d="M149,466 C152.87377,466 152.87377,470 156.747541,470 C160.621311,470 160.621311,466 164.493293,466 C168.367064,466 168.367064,470 172.240834,470 C176.112816,470 176.112816,466 179.984798,466 C183.858569,466 183.858569,470 187.730551,470 C191.607898,470 191.607898,466 195.483457,466 C199.362593,466 199.362593,470 203.241728,470 C207.120864,470 207.120864,466 211,466"></path>
-                                            </g>
-                                        </g>
-                                    </svg>
-                                </h3>
-                                <div class="contact_form">
-                                    <form action="https://karizma-preview.netlify.app/send.php" method="post">
-                                        <input placeholder="Name" name="name" type="text" class="form-control">
-                                        <input placeholder="E-mail" name="email" type="email" class="form-control">
-                                        <textarea placeholder="Message" name="message" class="form-control"></textarea>
-                                        <div class="submit btn btn-lg btn-success btn-block">Send Message</div>
-                                        <!--Contact form message-->
-                                        <div class="msg_success"><p>Your message has been sent. Thank you!</p></div>
-                                        <div class="msg_error"><p>Sorry your message can not be sent.</p></div>
-                                        <!--End contact form message-->
-                                    </form>
-                                </div>
-                            </div>
+
                         </div>
 
                     </div><!--.container-->
@@ -1878,6 +1886,7 @@
         </div><!--.page-inner-->
     </div><!--.page-right-->
 </div><!--.splitlayout-->
+
 
 
 <!--jquery.min.js-->
@@ -1922,7 +1931,15 @@
 
 <!-- Main script js -->
 <script src="{{asset('js/custom.js')}}"></script>
-
+<script>
+    $(document).ready(function() {
+        // Initialize Magnific Popup for anchor tags with the class "image_overlay"
+        $('.image_overlay').magnificPopup({
+            type: 'image',
+            closeBtnInside: true // Display close button inside the popup
+        });
+    });
+</script>
 </body>
 
 </html>
