@@ -96,7 +96,7 @@
 
                                 <div class="item">
                                     <span class="info-title">Age : </span>
-                                    <span class="info-body">23 Years</span>
+                                    <span class="info-body">24 Years old</span>
                                 </div>
 
                                 <div class="item">
@@ -935,6 +935,32 @@
                                     </svg>
                                 </h3>
 
+                                <!--
+                                <div class="item">
+                                    <div class="date">
+                                        <span>2024</span>
+                                    </div>
+                                    <div class="content">
+                                        <h4>SWMA</h4>
+                                        <h5>Summer Internship</h5>
+
+                                        <p>During my summer internship, I had the opportunity to improve my skills with the  mobile development using React Native for the "Little-Lemon-Restaurant" project. </p>
+
+                                        <h5>Key Projects:</h5>
+
+                                        <ol>
+                                            <li>Mobile Development</li>
+                                            <ul>
+                                                <li> Description</li>
+                                                <p>This project aimed to create a mobile application for a fictional restaurant</p>
+                                                <li>Technologies Used</li>
+                                                <p>React Native</p>
+                                            </ul>
+
+                                        </ol>
+                                    </div>
+                                </div>
+                                -->
                                 <div class="item">
                                     <div class="date">
                                         <span>2023</span>
@@ -1316,6 +1342,40 @@
                                 <div class="project_content">
                                     <div class="my__img">
                                         <img src="{{asset('painting/8.jpeg')}}" alt=''>
+                                    </div>
+                                    <div class="info">
+                                        <div class="display-table">
+                                            <div class="display-table-cell">
+                                                <a class="popup-with-zoom-anim">
+                                                    <p>Painting</p>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--project 9 (Project popup)-->
+                            <div class="col-xs-12 col-sm-6 item grid-sizer painting">
+                                <div class="project_content">
+                                    <div class="my__img">
+                                        <img src="{{asset('painting/9.jpg')}}" alt=''>
+                                    </div>
+                                    <div class="info">
+                                        <div class="display-table">
+                                            <div class="display-table-cell">
+                                                <a class="popup-with-zoom-anim">
+                                                    <p>Painting</p>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--project 10 (Project popup)-->
+                            <div class="col-xs-12 col-sm-6 item grid-sizer painting">
+                                <div class="project_content">
+                                    <div class="my__img">
+                                        <img src="{{asset('painting/10.jpg')}}" alt=''>
                                     </div>
                                     <div class="info">
                                         <div class="display-table">
